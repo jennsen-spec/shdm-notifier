@@ -1,0 +1,553 @@
+{
+ "data": {
+  "logements": {
+   "nodes": [
+    {
+     "id": "cG9zdDo0NTYzNw==",
+     "title": "50424-0204",
+     "uri": "/fr/logement/50424-0204",
+     "slug": "50424-0204",
+     "logementFields": {
+      "prix": 1583,
+      "numeroLogement": "0204",
+      "chambre": 2,
+      "etage": 2,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": true,
+      "electricite": true,
+      "eauChaude": true,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": true,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "3270, rue de la Pépinière",
+         "buildingFields": {
+          "adresse": "3270, rue de la Pépinière H1N 3N4",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3270pepiniere.jfif"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDo0NTU4MQ==",
+     "title": "50427-0210",
+     "uri": "/fr/logement/50427-0210",
+     "slug": "50427-0210",
+     "logementFields": {
+      "prix": 1411,
+      "numeroLogement": "0210",
+      "chambre": 2,
+      "etage": null,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": true,
+      "electricite": true,
+      "eauChaude": true,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": true,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "3282, rue de la Pépinière",
+         "buildingFields": {
+          "adresse": "3282, rue de la Pépinière H1N 3N4",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3282pepiniere.jfif"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDo0NTU3Mw==",
+     "title": "50425-0106",
+     "uri": "/fr/logement/50425-0106",
+     "slug": "50425-0106",
+     "logementFields": {
+      "prix": 1134,
+      "numeroLogement": "0106",
+      "chambre": 1,
+      "etage": null,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": true,
+      "electricite": true,
+      "eauChaude": true,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": true,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "3272, rue de la Pépinière",
+         "buildingFields": {
+          "adresse": "3272, rue de la Pépinière H1N 3N4",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3272pepiniere.jfif"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyNzEwMw==",
+     "title": "20502 – 0105",
+     "uri": "/fr/logement/20502-0105",
+     "slug": "20502-0105",
+     "logementFields": {
+      "prix": 973,
+      "numeroLogement": "0105",
+      "chambre": 2,
+      "etage": 1,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1791b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1827b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1830b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1847b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1865b-1.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE DE ROUVILLE",
+         "buildingFields": {
+          "adresse": "3350, rue Sainte-Catherine Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_011.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rouville_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02654b4301ce828454b58b2566bc6.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_017.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_021.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02554b43020f0784.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_028.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_031.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDozMDY0NA==",
+     "title": "20502-0211",
+     "uri": "/fr/logement/132-0211",
+     "slug": "132-0211",
+     "logementFields": {
+      "prix": 987,
+      "numeroLogement": "0211",
+      "chambre": 2,
+      "etage": 2,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": true,
+      "balcon": true,
+      "deuxEtage": false,
+      "plancherBois": true,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": true,
+      "positionImmeuble": [
+       "Avant"
+      ],
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1791b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1827b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1830b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1847b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1865b-1.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE DE ROUVILLE",
+         "buildingFields": {
+          "adresse": "3350, rue Sainte-Catherine Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_011.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rouville_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02654b4301ce828454b58b2566bc6.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_017.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_021.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02554b43020f0784.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_028.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_031.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "pageInfo": {
+    "offsetPagination": {
+     "total": 5
+    }
+   }
+  }
+ }
+}

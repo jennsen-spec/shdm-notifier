@@ -1,0 +1,48 @@
+name: Vérification SHDM
+
+on:
+  # GitHub compte en UTC. Cette plage couvre 7 h à 21 h à Montréal en heure d'été
+  # comme en heure normale ; l'étape « Heure de Montréal » écarte le reste.
+  schedule:
+    - cron: "17 0-2,11-23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verification
+  cancel-in-progress: false
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Heure de Montréal
+        if: github.event_name == 'schedule'
+        run: |
+          heure=$(TZ=America/Toronto date +%-H)
+          if [ "$heure" -lt 7 ] || [ "$heure" -gt 21 ]; then echo "HORS_PLAGE=1" >> "$GITHUB_ENV"; fi
+
+      - uses: actions/checkout@v4
+        if: env.HORS_PLAGE != '1'
+
+      - uses: actions/setup-python@v5
+        if: env.HORS_PLAGE != '1'
+        with:
+          python-version: "3.12"
+
+      - name: Interroger la SHDM
+        if: env.HORS_PLAGE != '1'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python check.py
+
+      - name: Enregistrer les données et la page
+        if: env.HORS_PLAGE != '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Vérification du $(TZ=America/Toronto date '+%Y-%m-%d %H:%M')"
+          git push

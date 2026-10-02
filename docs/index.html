@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Logements SHDM</title>
+<style>
+:root { --fond: #f4f2ee; --carte: #ffffff; --texte: #1d1d1b; --discret: #6b6862;
+        --bord: #e2ded6; --accent: #0b6e4f; --sur-accent: #ffffff; --puce: #edf3ef; }
+@media (prefers-color-scheme: dark) {
+  :root { --fond: #161614; --carte: #21211e; --texte: #f0eee9; --discret: #a3a099;
+          --bord: #34332f; --accent: #4cc79a; --sur-accent: #10231b; --puce: #26302b; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px 16px 48px; background: var(--fond); color: var(--texte);
+       font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; }
+h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 4px; }
+h2 { font-size: 1.1rem; margin: 40px 0 12px; }
+p { margin: 0; }
+a { color: var(--accent); }
+a[href^="tel:"] { white-space: nowrap; }
+.discret { color: var(--discret); font-size: .9rem; }
+.visite { margin: 16px 0 24px; padding: 12px 16px; background: var(--carte);
+          border: 1px solid var(--bord); border-radius: 12px; }
+.carte { background: var(--carte); border: 1px solid var(--bord); border-radius: 14px;
+         overflow: hidden; margin-bottom: 20px; }
+.carte img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--bord); }
+.contenu { padding: 16px; }
+.loyer { font-size: 1.5rem; font-weight: 700; line-height: 1.2; }
+.loyer small { font-size: .95rem; font-weight: 400; color: var(--discret); }
+.type { font-weight: 600; margin-bottom: 8px; }
+.puces { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 12px 0 16px; }
+.puces li { background: var(--puce); border-radius: 999px; padding: 3px 10px; font-size: .85rem; }
+.bouton { display: block; text-align: center; background: var(--accent); color: var(--sur-accent);
+          text-decoration: none; font-weight: 600; padding: 12px; border-radius: 10px; }
+.retires { list-style: none; padding: 0; margin: 0; }
+.retires li { padding: 10px 0; border-top: 1px solid var(--bord); }
+</style>
+</head>
+<body>
+<main>
+<h1>5 logements disponibles</h1>
+<p class="discret">Logements à louer à la SHDM. Dernière vérification : 2 octobre 2026 à 18 h 37.</p>
+<p class="visite">Pour une visite, appelez la SHDM au <a href="tel:+15143807436">514 380-7436</a> en donnant le numéro du logement.</p>
+<article class="carte">
+<img src="https://www.shdm.org/app/uploads/uncategorized/3270pepiniere.jfif" alt="Photo : 3270, rue de la Pépinière H1N 3N4" loading="lazy">
+<div class="contenu">
+<p class="loyer">1583 $ <small>par mois</small></p>
+<p class="type">4 1/2 · 2 chambres · étage 2</p>
+<p>3270, rue de la Pépinière H1N 3N4</p>
+<p>Mercier-Hochelaga-Maisonneuve</p>
+<p>Disponible le 1er novembre 2026</p>
+<ul class="puces"><li>Pour tous</li><li>Chauffage inclus</li><li>Électricité incluse</li><li>Eau chaude incluse</li><li>Critères de revenus maximaux</li></ul>
+<a class="bouton" href="https://www.shdm.org/fr/logement/50424-0204">Voir la fiche SHDM (50424-0204)</a>
+<p class="discret" style="margin-top: 10px">Sur la liste depuis le 2 octobre 2026</p>
+</div>
+</article>
+<article class="carte">
+<img src="https://www.shdm.org/app/uploads/uncategorized/3282pepiniere.jfif" alt="Photo : 3282, rue de la Pépinière H1N 3N4" loading="lazy">
+<div class="contenu">
+<p class="loyer">1411 $ <small>par mois</small></p>
+<p class="type">4 1/2 · 2 chambres</p>
+<p>3282, rue de la Pépinière H1N 3N4</p>
+<p>Mercier-Hochelaga-Maisonneuve</p>
+<p>Disponible le 1er novembre 2026</p>
+<ul class="puces"><li>Pour tous</li><li>Chauffage inclus</li><li>Électricité incluse</li><li>Eau chaude incluse</li><li>Critères de revenus maximaux</li></ul>
+<a class="bouton" href="https://www.shdm.org/fr/logement/50427-0210">Voir la fiche SHDM (50427-0210)</a>
+<p class="discret" style="margin-top: 10px">Sur la liste depuis le 2 octobre 2026</p>
+</div>
+</article>
+<article class="carte">
+<img src="https://www.shdm.org/app/uploads/uncategorized/3272pepiniere.jfif" alt="Photo : 3272, rue de la Pépinière H1N 3N4" loading="lazy">
+<div class="contenu">
+<p class="loyer">1134 $ <small>par mois</small></p>
+<p class="type">3 1/2 · 1 chambre</p>
+<p>3272, rue de la Pépinière H1N 3N4</p>
+<p>Mercier-Hochelaga-Maisonneuve</p>
+<p>Disponible le 1er novembre 2026</p>
+<ul class="puces"><li>Pour tous</li><li>Chauffage inclus</li><li>Électricité incluse</li><li>Eau chaude incluse</li><li>Critères de revenus maximaux</li></ul>
+<a class="bouton" href="https://www.shdm.org/fr/logement/50425-0106">Voir la fiche SHDM (50425-0106)</a>
+<p class="discret" style="margin-top: 10px">Sur la liste depuis le 2 octobre 2026</p>
+</div>
+</article>
+<article class="carte">
+<img src="https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg" alt="Photo : LE DE ROUVILLE, 3350, rue Sainte-Catherine Est" loading="lazy">
+<div class="contenu">
+<p class="loyer">973 $ <small>par mois</small></p>
+<p class="type">4 1/2 · 2 chambres · étage 1</p>
+<p>LE DE ROUVILLE, 3350, rue Sainte-Catherine Est</p>
+<p>Mercier-Hochelaga-Maisonneuve</p>
+<p>Disponible le 1er novembre 2026</p>
+<ul class="puces"><li>Autonomie+ (55 ans et plus)</li><li>Accessible mobilité réduite</li></ul>
+<a class="bouton" href="https://www.shdm.org/fr/logement/20502-0105">Voir la fiche SHDM (20502-0105)</a>
+<p class="discret" style="margin-top: 10px">Sur la liste depuis le 2 octobre 2026</p>
+</div>
+</article>
+<article class="carte">
+<img src="https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg" alt="Photo : LE DE ROUVILLE, 3350, rue Sainte-Catherine Est" loading="lazy">
+<div class="contenu">
+<p class="loyer">987 $ <small>par mois</small></p>
+<p class="type">4 1/2 · 2 chambres · étage 2 · orientation sud</p>
+<p>LE DE ROUVILLE, 3350, rue Sainte-Catherine Est</p>
+<p>Mercier-Hochelaga-Maisonneuve</p>
+<p>Disponible le 1er novembre 2026</p>
+<ul class="puces"><li>Autonomie+ (55 ans et plus)</li><li>Eau chaude incluse</li><li>Balcon</li><li>Plancher de bois</li><li>Accessible mobilité réduite</li></ul>
+<a class="bouton" href="https://www.shdm.org/fr/logement/132-0211">Voir la fiche SHDM (20502-0211)</a>
+<p class="discret" style="margin-top: 10px">Sur la liste depuis le 2 octobre 2026</p>
+</div>
+</article>
+
+</main>
+</body>
+</html>

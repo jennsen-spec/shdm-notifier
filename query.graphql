@@ -1,0 +1,48 @@
+query getLogements($where: RootQueryToLogementConnectionWhereArgs = null) {
+  logements(where: $where) {
+    nodes {
+      id
+      title
+      uri
+      slug
+      logementFields {
+        prix
+        numeroLogement
+        chambre
+        etage
+        date
+        typologie
+        handicape
+        adapte
+        chauffage
+        electricite
+        eauChaude
+        balcon
+        deuxEtage
+        plancherBois
+        portePatio
+        positionFenetreEst
+        positionFenetreNord
+        positionFenetreOuest
+        positionFenetreSud
+        positionImmeuble
+        afficherMessageCriteresRevenusMaximaux
+        medias { media { node { sourceUrl } } }
+        autonomie { edges { node { id name } } }
+        quartier { nodes { ... on Quartier { title } } }
+        immeuble {
+          nodes {
+            ... on Building {
+              title
+              buildingFields {
+                adresse
+                medias { media { node { sourceUrl } } }
+              }
+            }
+          }
+        }
+      }
+    }
+    pageInfo { offsetPagination { total } }
+  }
+}
