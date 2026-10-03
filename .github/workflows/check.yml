@@ -3,6 +3,7 @@ name: Vérification SHDM
 on:
   # GitHub compte en UTC. Cette plage couvre 7 h à 21 h à Montréal en heure d'été
   # comme en heure normale ; l'étape « Heure de Montréal » écarte le reste.
+  # Le premier passage planifié d'un dépôt neuf peut tarder de quelques heures.
   schedule:
     - cron: "17 0-2,11-23 * * *"
   workflow_dispatch:

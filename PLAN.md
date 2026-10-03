@@ -84,7 +84,7 @@ L'ancien projet et son GitHub Action ne sont pas touchés.
 2. [x] Comparaison d'un passage à l'autre. Vérification : tests avec des réponses simulées (apparition, retrait, liste vide, API en panne).
 3. [x] Génération de la page. Vérification : ouverture locale sur téléphone et ordinateur.
 4. [~] Notification push (envoi confirmé côté ntfy, réception sur le téléphone à confirmer). Vérification : envoi d'une notification d'essai sur le téléphone.
-5. [ ] Dépôt GitHub, horaire et Pages. Vérification : un passage manuel puis un passage planifié réussis.
+5. [~] Dépôt GitHub, horaire et Pages (https://github.com/jennsen-spec/shdm-notifier, page https://jennsen-spec.github.io/shdm-notifier/ ; passage manuel réussi le 2 octobre, passage planifié à confirmer). Vérification : un passage manuel puis un passage planifié réussis.
 6. [ ] Une semaine d'observation, puis ajustement des critères.
 
 ## Points à connaître
