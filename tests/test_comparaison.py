@@ -90,7 +90,7 @@ class Passage(unittest.TestCase):
     def test_page(self):
         html = (self.docs / "index.html").read_text()
         self.assertIn("3 logements disponibles", html)
-        self.assertIn("https://www.shdm.org/fr/logement/50425-0106", html)
+        self.assertIn("https://www.shdm.org/fr/logements-disponibles#logement-50425-0106", html)
         vide = {"data": {"logements": {"nodes": []}}}
         with mock.patch.object(check, "appeler_api", return_value=vide):
             check.main(self.data, self.docs)
