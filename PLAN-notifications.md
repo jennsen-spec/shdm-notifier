@@ -46,11 +46,11 @@ Leçons de TVLite reprises d'emblée :
 - tests sur l'iPhone réel : Web Push iOS ne fonctionne pas en émulation ;
 - abonnements morts supprimés au premier 404/410 ; réinstaller l'icône crée un abonnement de plus.
 
-## Problème à régler en même temps : l'horaire GitHub
+## Décisions (3 octobre 2026)
 
-Les passages planifiés de GitHub arrivent avec 2 à 3 heures de retard, ou pas du tout. Constaté ici (aucun passage entre 7 h et 10 h ce matin, un seul à 1 h 21) et sur TVLite (prévu 17 h 30, parti entre 20 h 38 et 21 h 01). Une notification instantanée ne sert à rien si la vérification a trois heures de retard.
-
-Solution proposée : **Supabase déclenche le workflow chaque heure** (`pg_cron` + `pg_net` appellent l'API GitHub `workflow_dispatch`). Le déclenchement est alors à l'heure. Il faut un jeton GitHub limité à ce seul dépôt, avec le seul droit « Actions : écriture », gardé dans le coffre Supabase. Le `schedule` GitHub reste en secours.
+- Abonnement gardé dans Supabase, comme TVLite : fonction `shdm-push` et table `shdm_push_subs` dans le même projet, clés VAPID du projet réutilisées. Le secret d'envoi est dans GitHub (`PUSH_SEND_SECRET`) ; la fonction n'en connaît que l'empreinte SHA-256, aucun secret Supabase à poser.
+- Horaire : on garde GitHub Actions, une vérification par jour vers 18 h (22 h UTC : 18 h l'été, 17 h l'hiver). GitHub peut retarder le passage de quelques heures.
+- ntfy reste branché en parallèle jusqu'à la validation sur l'iPhone, puis sera retiré.
 
 ## Étapes
 
@@ -59,10 +59,4 @@ Solution proposée : **Supabase déclenche le workflow chaque heure** (`pg_cron`
 3. **Bouton d'activation** dans la page. Vérification : sur l'iPhone, permission accordée, une ligne apparaît dans `shdm_push_subs`.
 4. **Envoi d'essai** : `python3 check.py --essai` appelle `/send`. Vérification : la notification arrive app fermée, la taper ouvre la page, la pastille s'efface.
 5. **Branchement** dans `check.py` (nouveaux logements et erreurs), tests mis à jour, ntfy retiré. Vérification : tests verts, puis un logement simulé déclenche une vraie notification.
-6. **Horaire fiable** : déclenchement par Supabase. Vérification : une journée de passages à l'heure dans l'onglet Actions.
-
-## Décisions à prendre
-
-1. **Où garder l'abonnement** : fonction Supabase dans le projet TVLite (suggéré, déjà éprouvé), ou sans serveur : l'abonnement copié à la main dans un secret GitHub et l'envoi fait par l'Action. C'est plus simple, mais à refaire chaque fois que l'abonnement change.
-2. **Horaire** : déclenchement par Supabase chaque heure (suggéré), ou garder l'horaire GitHub et ses retards.
-3. **Nuit** : notifier aussi la nuit (un logement apparu à 23 h ne t'attend pas), ou seulement de 7 h à 21 h.
+6. **Horaire** : un passage quotidien vers 18 h par GitHub. Vérification : un passage planifié réussi.
