@@ -26,6 +26,7 @@ const VAPID = "BOAuBDN-f3IY-MkGWn9MVMxs05BWcsNNK6X68b67fZaSJgsCpvFQp-A-R5gNzZtUI
 const bloc = document.getElementById("notif");
 const supporte = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
 const installee = navigator.standalone === true || matchMedia("(display-mode: standalone)").matches;
+const iphone = /iPhone|iPad/.test(navigator.userAgent);
 
 const versOctets = (b64) => {
   const brut = atob((b64 + "=".repeat((4 - b64.length % 4) % 4)).replace(/-/g, "+").replace(/_/g, "/"));
@@ -72,12 +73,16 @@ async function desactiver() {
 
 async function etat() {
   if (!supporte) {
-    return afficher(installee || !/iPhone|iPad/.test(navigator.userAgent)
-      ? "Ce navigateur ne permet pas les notifications."
+    // Sur iPhone, les notifications n'existent que pour la page ajoutée à l'écran d'accueil.
+    // Sur Android, Chrome et Firefox les permettent directement dans le navigateur.
+    return afficher(installee || !iphone
+      ? "Ce navigateur ne permet pas les notifications. Sur Android, ouvrez cette page dans Chrome."
       : "Pour recevoir une notification à chaque nouveau logement : touchez Partager, puis « Sur l'écran d'accueil », et ouvrez la page depuis l'icône.");
   }
   if (Notification.permission === "denied") {
-    return afficher("Notifications refusées. Pour les autoriser : Réglages → Notifications → SHDM.");
+    return afficher(iphone
+      ? "Notifications refusées. Pour les autoriser : Réglages → Notifications → SHDM."
+      : "Notifications refusées. Pour les autoriser : touchez le cadenas à gauche de l'adresse → Autorisations → Notifications.");
   }
   const sub = await (await navigator.serviceWorker.ready).pushManager.getSubscription();
   if (sub) afficher("Notifications activées sur cet appareil.", "Désactiver", desactiver);

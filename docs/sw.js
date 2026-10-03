@@ -12,8 +12,9 @@ self.addEventListener("push", (event) => {
   event.waitUntil(
     self.registration.showNotification(d.titre || "Logements SHDM", {
       body: d.corps || "",
-      icon: "apple-touch-icon.png",
-      badge: "apple-touch-icon.png",
+      icon: "icon-192.png",
+      // Petite icône de la barre d'état Android : seule sa transparence compte.
+      badge: "badge-96.png",
       tag: "shdm", // la nouvelle notification remplace la précédente
       renotify: true,
     }),
