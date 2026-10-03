@@ -27,6 +27,12 @@ const bloc = document.getElementById("notif");
 const supporte = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
 const installee = navigator.standalone === true || matchMedia("(display-mode: standalone)").matches;
 const iphone = /iPhone|iPad/.test(navigator.userAgent);
+const android = /Android/.test(navigator.userAgent);
+// Android : la pastille sur l'icône n'apparaît que si la page est installée comme une app.
+// Chrome propose l'installation par cet événement, qu'on garde pour un bouton.
+let invite = null;
+addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); invite = e; etat(); });
+addEventListener("appinstalled", () => { invite = null; etat(); });
 
 const versOctets = (b64) => {
   const brut = atob((b64 + "=".repeat((4 - b64.length % 4) % 4)).replace(/-/g, "+").replace(/_/g, "/"));
@@ -49,6 +55,21 @@ function afficher(texte, bouton, action) {
       try { await action(); } catch (e) { afficher("Échec : " + e.message, "Réessayer", action); }
     };
     bloc.appendChild(b);
+  }
+  if (android && !installee) {
+    if (invite) {
+      const b = document.createElement("button");
+      b.className = "bouton";
+      b.textContent = "Installer l'application";
+      b.onclick = async () => { invite.prompt(); await invite.userChoice; invite = null; etat(); };
+      bloc.appendChild(b);
+    }
+    const aide = document.createElement("span");
+    aide.className = "discret";
+    aide.textContent = invite
+      ? "Installée, l'application affiche une pastille sur son icône à chaque nouveau logement."
+      : "Pour une pastille sur l'icône, installez la page : menu ⋮ de Chrome → Ajouter à l'écran d'accueil → Installer.";
+    bloc.appendChild(aide);
   }
 }
 
