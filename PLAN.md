@@ -9,7 +9,7 @@ Chaque jour, interroger l'API publique de la SHDM, tenir à jour un registre des
 ## Décisions prises (2 octobre 2026)
 
 1. Fréquence : toutes les heures de 7 h à 21 h.
-2. Notification : ntfy.
+2. Notification : ntfy au départ, remplacé le 3 octobre par une notification Web Push envoyée par la page installée sur l'iPhone (voir PLAN-notifications.md).
 3. Dépôt public avec page publique (GitHub Pages gratuit).
 4. Critères : tout notifier au début, à ajuster après une semaine.
 
@@ -23,7 +23,7 @@ Stockage : fichiers plats (CSV et JSON) dans le dépôt GitHub, mis à jour par 
 | Supabase | Trop lourd ici | Une base à gérer et des clés à protéger pour quelques lignes par mois ; utile seulement si on veut plus tard une vraie application |
 | Excel | Déconseillé | Fichier binaire, difficile à mettre à jour automatiquement et à comparer d'un jour à l'autre |
 
-Notification : push sur le téléphone avec ntfy (application gratuite iOS/Android). Un tap sur la notification ouvre la page personnelle.
+Notification : Web Push depuis la page installée sur l'écran d'accueil, sur le modèle de TVLite (voir PLAN-notifications.md). Un tap sur la notification ouvre la page personnelle.
 
 Page personnelle : GitHub Pages, régénérée à chaque passage à partir des mêmes fichiers.
 
@@ -83,13 +83,12 @@ L'ancien projet et son GitHub Action ne sont pas touchés.
 1. [x] Script d'appel de l'API et écriture des fichiers. Vérification : il retrouve les 3 logements capturés le 1er octobre.
 2. [x] Comparaison d'un passage à l'autre. Vérification : tests avec des réponses simulées (apparition, retrait, liste vide, API en panne).
 3. [x] Génération de la page. Vérification : ouverture locale sur téléphone et ordinateur.
-4. [~] Notification push (envoi confirmé côté ntfy, réception sur le téléphone à confirmer). Vérification : envoi d'une notification d'essai sur le téléphone.
+4. [x] Notification push (Web Push, reçue sur l'iPhone le 3 octobre). Vérification : envoi d'une notification d'essai sur le téléphone.
 5. [~] Dépôt GitHub, horaire et Pages (https://github.com/jennsen-spec/shdm-notifier, page https://jennsen-spec.github.io/shdm-notifier/ ; passage manuel réussi le 2 octobre, passage planifié à confirmer). Vérification : un passage manuel puis un passage planifié réussis.
 6. [ ] Une semaine d'observation, puis ajustement des critères.
 
 ## Points à connaître
 
 - Visibilité de la page. GitHub Pages gratuit exige un dépôt public. Les données sont déjà publiques (ce sont celles de la SHDM), mais la page est accessible à quiconque a le lien.
-- Sujet ntfy. Quiconque connaît le nom du sujet peut lire les notifications. On utilise un nom long et aléatoire, gardé dans les secrets GitHub.
 - API non officielle. Elle peut changer sans préavis, d'où la notification d'erreur.
 - Horaire GitHub. Les passages planifiés peuvent avoir quelques minutes de retard, sans conséquence ici.

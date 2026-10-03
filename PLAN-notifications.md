@@ -50,7 +50,7 @@ Leçons de TVLite reprises d'emblée :
 
 - Abonnement gardé dans Supabase, comme TVLite : fonction `shdm-push` et table `shdm_push_subs` dans le même projet, clés VAPID du projet réutilisées. Le secret d'envoi est dans GitHub (`PUSH_SEND_SECRET`) ; la fonction n'en connaît que l'empreinte SHA-256, aucun secret Supabase à poser.
 - Horaire : on garde GitHub Actions, une vérification par jour vers 18 h (22 h UTC : 18 h l'été, 17 h l'hiver). GitHub peut retarder le passage de quelques heures.
-- ntfy reste branché en parallèle jusqu'à la validation sur l'iPhone, puis sera retiré.
+- Validé le 3 octobre : notification d'essai reçue sur l'iPhone. ntfy et le secret `NTFY_TOPIC` sont retirés.
 
 ## Étapes
 

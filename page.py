@@ -212,9 +212,9 @@ def generer(registre, maintenant):
 <h1>{titre}</h1>
 <p class="discret">Logements à louer à la SHDM. Dernière vérification&nbsp;: {verification}.</p>
 <p class="visite">Pour une visite, appelez la SHDM au <a href="tel:{tel}">{TELEPHONE}</a> en donnant le numéro du logement.</p>
-<div id="notif" class="visite" hidden></div>
 {cartes}
 {section_retires}
+<div id="notif" class="visite" hidden></div>
 </main>
 <script>{SCRIPT}</script>
 </body>

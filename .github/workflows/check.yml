@@ -26,7 +26,6 @@ jobs:
 
       - name: Interroger la SHDM
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           PUSH_SEND_SECRET: ${{ secrets.PUSH_SEND_SECRET }}
         run: python check.py
 

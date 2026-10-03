@@ -14,7 +14,6 @@ import page
 RACINE = Path(__file__).parent
 API = "https://www.shdm.org/wp/graphql"
 SITE = "https://www.shdm.org"
-NTFY = "https://ntfy.sh"
 PUSH = "https://cucshrxmtwwizzzqthcj.supabase.co/functions/v1/shdm-push/send"
 
 COLONNES = [
@@ -166,25 +165,17 @@ def main(data=RACINE / "data", docs=RACINE / "docs"):
     return evenements
 
 
-def notifier(titre, message, clic=""):
-    """Envoie la notification aux iPhone abonnés depuis la page (Web Push, secret
-    PUSH_SEND_SECRET) et, tant qu'il est configuré, par ntfy (sujet NTFY_TOPIC)."""
+def notifier(titre, message):
+    """Envoie la notification aux appareils abonnés depuis la page (Web Push).
+    Le secret d'envoi vient de la variable PUSH_SEND_SECRET."""
     secret = os.environ.get("PUSH_SEND_SECRET")
-    sujet = os.environ.get("NTFY_TOPIC")
-    if not secret and not sujet:
-        print(f"Aucun canal configuré, notification non envoyée : {titre}")
-    if secret:
-        requete = urllib.request.Request(PUSH, data=json.dumps({"titre": titre, "corps": message}).encode(),
-                                         headers={"Content-Type": "application/json", "x-push-secret": secret})
-        with urllib.request.urlopen(requete, timeout=30) as reponse:
-            print(f"Web Push : {reponse.read().decode()}")
-    if sujet:
-        corps = {"topic": sujet, "title": titre, "message": message}
-        if clic:
-            corps["click"] = clic
-        requete = urllib.request.Request(NTFY, data=json.dumps(corps).encode(),
-                                         headers={"Content-Type": "application/json"})
-        urllib.request.urlopen(requete, timeout=30).close()
+    if not secret:
+        print(f"PUSH_SEND_SECRET absent, notification non envoyée : {titre}")
+        return
+    requete = urllib.request.Request(PUSH, data=json.dumps({"titre": titre, "corps": message}).encode(),
+                                     headers={"Content-Type": "application/json", "x-push-secret": secret})
+    with urllib.request.urlopen(requete, timeout=30) as reponse:
+        print(f"Web Push : {reponse.read().decode()}")
 
 
 def annonce(evenements):
@@ -199,7 +190,6 @@ def annonce(evenements):
 
 
 def lancer():
-    page_url = json.loads((RACINE / "config.json").read_text()).get("page_url", "")
     try:
         evenements = main()
     except Exception as erreur:
@@ -207,7 +197,7 @@ def lancer():
         raise
     a_annoncer = annonce(evenements)
     if a_annoncer:
-        notifier(*a_annoncer, clic=page_url)
+        notifier(*a_annoncer)
 
 
 if __name__ == "__main__":
