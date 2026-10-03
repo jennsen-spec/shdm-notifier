@@ -1,9 +1,8 @@
 """Génère la page docs/index.html à partir du registre des logements."""
-from datetime import date, timedelta
+from datetime import date
 from html import escape
 
 TELEPHONE = "514 380-7436"
-JOURS_RETIRES = 30
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
         "août", "septembre", "octobre", "novembre", "décembre"]
 
@@ -111,7 +110,6 @@ body { margin: 0; padding: 24px 16px 48px; background: var(--fond); color: var(-
        font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 main { max-width: 720px; margin: 0 auto; }
 h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 4px; }
-h2 { font-size: 1.1rem; margin: 40px 0 12px; }
 p { margin: 0; }
 a { color: var(--accent); }
 a[href^="tel:"] { white-space: nowrap; }
@@ -131,8 +129,6 @@ a[href^="tel:"] { white-space: nowrap; }
           text-decoration: none; font-weight: 600; padding: 12px; border-radius: 10px; }
 #notif { display: flex; flex-direction: column; gap: 10px; }
 #notif .bouton { border: 0; font: inherit; font-weight: 600; cursor: pointer; }
-.retires { list-style: none; padding: 0; margin: 0; }
-.retires li { padding: 10px 0; border-top: 1px solid var(--bord); }
 """
 
 
@@ -171,9 +167,6 @@ def carte(l):
 def generer(registre, maintenant):
     """Renvoie le HTML de la page. `maintenant` est l'heure de la vérification (Montréal)."""
     disponibles = [l for l in registre if l["statut"] == "disponible"]
-    limite = (maintenant.date() - timedelta(days=JOURS_RETIRES)).isoformat()
-    retires = sorted((l for l in registre if l["statut"] != "disponible" and l["date_retrait"] >= limite),
-                     key=lambda l: l["date_retrait"], reverse=True)
 
     if disponibles:
         n = len(disponibles)
@@ -182,14 +175,6 @@ def generer(registre, maintenant):
     else:
         titre = "Aucun logement disponible"
         cartes = "<p>Aucun logement n'est à louer en ce moment. Vous recevrez une notification dès qu'il y en aura un.</p>"
-
-    section_retires = ""
-    if retires:
-        lignes = "\n".join(
-            f"<li>{escape(l['typologie'])} à {escape(l['loyer'])} $, {escape(l['adresse'])}, {escape(l['quartier'])}"
-            f'<br><span class="discret">{escape(l["numero"])}, retiré le {date_longue(l["date_retrait"])}</span></li>'
-            for l in retires)
-        section_retires = f'<h2>Retirés récemment</h2>\n<ul class="retires">\n{lignes}\n</ul>'
 
     verification = f"{date_longue(maintenant.date().isoformat())} à {maintenant.hour} h {maintenant.minute:02d}"
     tel = "+1" + "".join(c for c in TELEPHONE if c.isdigit())
@@ -213,7 +198,6 @@ def generer(registre, maintenant):
 <p class="discret">Logements à louer à la SHDM. Dernière vérification&nbsp;: {verification}.</p>
 <p class="visite">Pour une visite, appelez la SHDM au <a href="tel:{tel}">{TELEPHONE}</a> en donnant le numéro du logement.</p>
 {cartes}
-{section_retires}
 <div id="notif" class="visite" hidden></div>
 </main>
 <script>{SCRIPT}</script>

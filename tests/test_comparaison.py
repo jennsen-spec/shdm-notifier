@@ -96,8 +96,8 @@ class Passage(unittest.TestCase):
             check.main(self.data, self.docs)
         html = (self.docs / "index.html").read_text()
         self.assertIn("Aucun logement disponible", html)
-        self.assertIn("Retirés récemment", html)
-        self.assertIn("50425-0106", html)
+        # Seuls les logements disponibles sont affichés : les retirés disparaissent.
+        self.assertNotIn("50425-0106", html)
 
     def test_api_en_panne(self):
         avant = self.contenu()
