@@ -15,6 +15,7 @@ RACINE = Path(__file__).parent
 API = "https://www.shdm.org/wp/graphql"
 SITE = "https://www.shdm.org"
 NTFY = "https://ntfy.sh"
+PUSH = "https://cucshrxmtwwizzzqthcj.supabase.co/functions/v1/shdm-push/send"
 
 COLONNES = [
     "numero", "lien", "statut", "premiere_apparition", "date_retrait",
@@ -166,17 +167,24 @@ def main(data=RACINE / "data", docs=RACINE / "docs"):
 
 
 def notifier(titre, message, clic=""):
-    """Envoie une notification push par ntfy. Le sujet vient de la variable NTFY_TOPIC."""
+    """Envoie la notification aux iPhone abonnés depuis la page (Web Push, secret
+    PUSH_SEND_SECRET) et, tant qu'il est configuré, par ntfy (sujet NTFY_TOPIC)."""
+    secret = os.environ.get("PUSH_SEND_SECRET")
     sujet = os.environ.get("NTFY_TOPIC")
-    if not sujet:
-        print(f"NTFY_TOPIC absent, notification non envoyée : {titre}")
-        return
-    corps = {"topic": sujet, "title": titre, "message": message}
-    if clic:
-        corps["click"] = clic
-    requete = urllib.request.Request(NTFY, data=json.dumps(corps).encode(),
-                                     headers={"Content-Type": "application/json"})
-    urllib.request.urlopen(requete, timeout=30).close()
+    if not secret and not sujet:
+        print(f"Aucun canal configuré, notification non envoyée : {titre}")
+    if secret:
+        requete = urllib.request.Request(PUSH, data=json.dumps({"titre": titre, "corps": message}).encode(),
+                                         headers={"Content-Type": "application/json", "x-push-secret": secret})
+        with urllib.request.urlopen(requete, timeout=30) as reponse:
+            print(f"Web Push : {reponse.read().decode()}")
+    if sujet:
+        corps = {"topic": sujet, "title": titre, "message": message}
+        if clic:
+            corps["click"] = clic
+        requete = urllib.request.Request(NTFY, data=json.dumps(corps).encode(),
+                                         headers={"Content-Type": "application/json"})
+        urllib.request.urlopen(requete, timeout=30).close()
 
 
 def annonce(evenements):

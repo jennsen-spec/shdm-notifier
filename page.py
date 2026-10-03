@@ -18,6 +18,87 @@ ATOUTS = [
     ("criteres_revenus", "Critères de revenus maximaux"),
 ]
 
+# Notifications Web Push (modèle : TVLite #92). iOS ne les permet qu'à une page
+# ajoutée à l'écran d'accueil, et la permission doit venir d'un geste : d'où le bouton.
+SCRIPT = """
+const API = "https://cucshrxmtwwizzzqthcj.supabase.co/functions/v1/shdm-push";
+// Clé publique VAPID du projet Supabase (la même que TVLite).
+const VAPID = "BOAuBDN-f3IY-MkGWn9MVMxs05BWcsNNK6X68b67fZaSJgsCpvFQp-A-R5gNzZtUIMWF4d2xZRkzZZnR3broLag";
+const bloc = document.getElementById("notif");
+const supporte = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+const installee = navigator.standalone === true || matchMedia("(display-mode: standalone)").matches;
+
+const versOctets = (b64) => {
+  const brut = atob((b64 + "=".repeat((4 - b64.length % 4) % 4)).replace(/-/g, "+").replace(/_/g, "/"));
+  return Uint8Array.from(brut, (c) => c.charCodeAt(0));
+};
+const appeler = (route, corps) => fetch(API + route, {
+  method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(corps),
+});
+
+function afficher(texte, bouton, action) {
+  bloc.hidden = false;
+  bloc.innerHTML = "<span></span>";
+  bloc.firstChild.textContent = texte;
+  if (bouton) {
+    const b = document.createElement("button");
+    b.className = "bouton";
+    b.textContent = bouton;
+    b.onclick = async () => {
+      b.disabled = true;
+      try { await action(); } catch (e) { afficher("Échec : " + e.message, "Réessayer", action); }
+    };
+    bloc.appendChild(b);
+  }
+}
+
+async function activer() {
+  if ((await Notification.requestPermission()) !== "granted") return etat();
+  const reg = await navigator.serviceWorker.ready;
+  const sub = (await reg.pushManager.getSubscription())
+    ?? (await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: versOctets(VAPID) }));
+  const rep = await appeler("/subscribe", sub.toJSON());
+  if (!rep.ok) throw new Error("serveur " + rep.status);
+  etat();
+}
+
+async function desactiver() {
+  const sub = await (await navigator.serviceWorker.ready).pushManager.getSubscription();
+  if (sub) {
+    await appeler("/unsubscribe", { endpoint: sub.endpoint }).catch(() => {});
+    await sub.unsubscribe();
+  }
+  etat();
+}
+
+async function etat() {
+  if (!supporte) {
+    return afficher(installee || !/iPhone|iPad/.test(navigator.userAgent)
+      ? "Ce navigateur ne permet pas les notifications."
+      : "Pour recevoir une notification à chaque nouveau logement : touchez Partager, puis « Sur l'écran d'accueil », et ouvrez la page depuis l'icône.");
+  }
+  if (Notification.permission === "denied") {
+    return afficher("Notifications refusées. Pour les autoriser : Réglages → Notifications → SHDM.");
+  }
+  const sub = await (await navigator.serviceWorker.ready).pushManager.getSubscription();
+  if (sub) afficher("Notifications activées sur cet appareil.", "Désactiver", desactiver);
+  else afficher("Recevez une notification à chaque nouveau logement.", "Activer les notifications", activer);
+}
+
+if (supporte) {
+  navigator.serviceWorker.register("sw.js");
+  // Tap sur une notification alors que la page est ouverte : afficher les données du jour.
+  navigator.serviceWorker.addEventListener("message", (e) => {
+    if (e.data && e.data.type === "recharger") location.reload();
+  });
+  // Page consultée : on éteint la pastille d'icône et les notifications restantes.
+  try { navigator.clearAppBadge && navigator.clearAppBadge(); } catch (e) {}
+  navigator.serviceWorker.ready.then((reg) => reg.getNotifications({ tag: "shdm" }))
+    .then((liste) => liste.forEach((n) => n.close())).catch(() => {});
+}
+etat();
+"""
+
 STYLE = """
 :root { --fond: #f4f2ee; --carte: #ffffff; --texte: #1d1d1b; --discret: #6b6862;
         --bord: #e2ded6; --accent: #0b6e4f; --sur-accent: #ffffff; --puce: #edf3ef; }
@@ -48,6 +129,8 @@ a[href^="tel:"] { white-space: nowrap; }
 .puces li { background: var(--puce); border-radius: 999px; padding: 3px 10px; font-size: .85rem; }
 .bouton { display: block; text-align: center; background: var(--accent); color: var(--sur-accent);
           text-decoration: none; font-weight: 600; padding: 12px; border-radius: 10px; }
+#notif { display: flex; flex-direction: column; gap: 10px; }
+#notif .bouton { border: 0; font: inherit; font-weight: 600; cursor: pointer; }
 .retires { list-style: none; padding: 0; margin: 0; }
 .retires li { padding: 10px 0; border-top: 1px solid var(--bord); }
 """
@@ -117,6 +200,11 @@ def generer(registre, maintenant):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Logements SHDM</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SHDM">
+<meta name="theme-color" content="#0b6e4f">
 <style>{STYLE}</style>
 </head>
 <body>
@@ -124,9 +212,11 @@ def generer(registre, maintenant):
 <h1>{titre}</h1>
 <p class="discret">Logements à louer à la SHDM. Dernière vérification : {verification}.</p>
 <p class="visite">Pour une visite, appelez la SHDM au <a href="tel:{tel}">{TELEPHONE}</a> en donnant le numéro du logement.</p>
+<div id="notif" class="visite" hidden></div>
 {cartes}
 {section_retires}
 </main>
+<script>{SCRIPT}</script>
 </body>
 </html>
 """
