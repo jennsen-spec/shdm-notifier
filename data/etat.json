@@ -71,6 +71,74 @@
      }
     },
     {
+     "id": "cG9zdDo0NTU4NQ==",
+     "title": "30646-0002",
+     "uri": "/fr/logement/30646-0002",
+     "slug": "30646-0002",
+     "logementFields": {
+      "prix": 1064,
+      "numeroLogement": "0002",
+      "chambre": 2,
+      "etage": null,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Villeray-Saint-Michel-Parc-Extension"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "4200, Denis-Papin",
+         "buildingFields": {
+          "adresse": "4200, Denis-Papin",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/4200-denis-papin.png"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
      "id": "cG9zdDo0NTU4MQ==",
      "title": "50427-0210",
      "uri": "/fr/logement/50427-0210",
@@ -207,76 +275,67 @@
      }
     },
     {
-     "id": "cG9zdDozMDY0NA==",
-     "title": "20502-0211",
-     "uri": "/fr/logement/132-0211",
-     "slug": "132-0211",
+     "id": "cG9zdDoyNzMxNw==",
+     "title": "20504 – 0404",
+     "uri": "/fr/logement/20504-0404",
+     "slug": "20504-0404",
      "logementFields": {
-      "prix": 987,
-      "numeroLogement": "0211",
-      "chambre": 2,
-      "etage": 2,
+      "prix": 931,
+      "numeroLogement": "0404",
+      "chambre": 1,
+      "etage": 4,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
-       "4 1/2"
+       "3 1/2"
       ],
       "handicape": true,
       "adapte": false,
       "chauffage": false,
       "electricite": false,
-      "eauChaude": true,
-      "balcon": true,
+      "eauChaude": false,
+      "balcon": false,
       "deuxEtage": false,
-      "plancherBois": true,
+      "plancherBois": false,
       "portePatio": false,
       "positionFenetreEst": false,
       "positionFenetreNord": false,
       "positionFenetreOuest": false,
-      "positionFenetreSud": true,
-      "positionImmeuble": [
-       "Avant"
-      ],
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
       "afficherMessageCriteresRevenusMaximaux": false,
       "medias": [
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-1.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1791b-1.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-2.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1827b-1.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-3.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1830b-1.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-4.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1847b-1.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1865b-1.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-5.jpg"
          }
         }
        }
@@ -294,77 +353,49 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Mercier-Hochelaga-Maisonneuve"
+         "title": "Rosemont-La-Petite-Patrie"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE DE ROUVILLE",
+         "title": "LE OLIVAR-ASSELIN",
          "buildingFields": {
-          "adresse": "3350, rue Sainte-Catherine Est",
+          "adresse": "3300, boul. Saint-Joseph Est",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_011.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_043.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rouville_003.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_047.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_012.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_019.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02654b4301ce828454b58b2566bc6.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_005.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_017.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_021.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02554b43020f0784.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_028.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_031.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/olivarasselin_01654b43045ef72a.jpg"
              }
             }
            }
@@ -378,7 +409,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 4
+     "total": 5
     }
    }
   }
