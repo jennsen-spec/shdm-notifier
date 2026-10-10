@@ -3,88 +3,6 @@
   "logements": {
    "nodes": [
     {
-     "id": "cG9zdDo0NTgyNA==",
-     "title": "30602-0149",
-     "uri": "/fr/logement/30602-0149",
-     "slug": "30602-0149",
-     "logementFields": {
-      "prix": 854,
-      "numeroLogement": "0149",
-      "chambre": 1,
-      "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Côte-des-Neiges-Notre-Dame-de-Grâce"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "7777, Mountain Sights",
-         "buildingFields": {
-          "adresse": "7777, Mountain Sights",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30201_7800-7810_f1-1.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30201_7800-7810_f1-2.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30201_7800-7810_f2-1.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
      "id": "cG9zdDo0NTY0NQ==",
      "title": "50425-0107",
      "uri": "/fr/logement/50425-0107",
@@ -557,15 +475,15 @@
      }
     },
     {
-     "id": "cG9zdDoyOTQzMA==",
-     "title": "22550-0618",
-     "uri": "/fr/logement/139-0618",
-     "slug": "139-0618",
+     "id": "cG9zdDoyODk5OA==",
+     "title": "22550-1910",
+     "uri": "/fr/logement/139-1910",
+     "slug": "139-1910",
      "logementFields": {
-      "prix": 966,
-      "numeroLogement": "0618",
+      "prix": 1060,
+      "numeroLogement": "1910",
       "chambre": null,
-      "etage": 6,
+      "etage": 19,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
        "Studio"
@@ -740,7 +658,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 8
+     "total": 7
     }
    }
   }
