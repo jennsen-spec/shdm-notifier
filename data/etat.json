@@ -3,6 +3,88 @@
   "logements": {
    "nodes": [
     {
+     "id": "cG9zdDo0NTk4NQ==",
+     "title": "30615-0103",
+     "uri": "/fr/logement/30615-0103",
+     "slug": "30615-0103",
+     "logementFields": {
+      "prix": 1082,
+      "numeroLogement": "0103",
+      "chambre": null,
+      "etage": null,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Côte-des-Neiges-Notre-Dame-de-Grâce"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "7025, Fielding",
+         "buildingFields": {
+          "adresse": "7025, Fielding",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30204-20100607_farley-001b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30204-20100607_farley-003b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30204-20100607_farley-005b.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
      "id": "cG9zdDo0NTY0NQ==",
      "title": "50425-0107",
      "uri": "/fr/logement/50425-0107",
@@ -128,74 +210,6 @@
             "media": {
              "node": {
               "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3270pepiniere.jfif"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDo0NTU4NQ==",
-     "title": "30646-0002",
-     "uri": "/fr/logement/30646-0002",
-     "slug": "30646-0002",
-     "logementFields": {
-      "prix": 1064,
-      "numeroLogement": "0002",
-      "chambre": 2,
-      "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "4 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Villeray-Saint-Michel-Parc-Extension"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "4200, Denis-Papin",
-         "buildingFields": {
-          "adresse": "4200, Denis-Papin",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/4200-denis-papin.png"
              }
             }
            }
@@ -343,15 +357,15 @@
      }
     },
     {
-     "id": "cG9zdDoyNzMxNw==",
-     "title": "20504 – 0404",
-     "uri": "/fr/logement/20504-0404",
-     "slug": "20504-0404",
+     "id": "cG9zdDoyNzM0MQ==",
+     "title": "20504 – 0104",
+     "uri": "/fr/logement/20504-0104",
+     "slug": "20504-0104",
      "logementFields": {
-      "prix": 931,
-      "numeroLogement": "0404",
+      "prix": 961,
+      "numeroLogement": "0104",
       "chambre": 1,
-      "etage": 4,
+      "etage": 1,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
        "3 1/2"
@@ -360,16 +374,18 @@
       "adapte": false,
       "chauffage": false,
       "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
+      "eauChaude": true,
+      "balcon": true,
       "deuxEtage": false,
-      "plancherBois": false,
+      "plancherBois": true,
       "portePatio": false,
       "positionFenetreEst": false,
       "positionFenetreNord": false,
       "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
+      "positionFenetreSud": true,
+      "positionImmeuble": [
+       "Arrière"
+      ],
       "afficherMessageCriteresRevenusMaximaux": false,
       "medias": [
        {
@@ -475,18 +491,122 @@
      }
     },
     {
-     "id": "cG9zdDoyODk5OA==",
-     "title": "22550-1910",
-     "uri": "/fr/logement/139-1910",
-     "slug": "139-1910",
+     "id": "cG9zdDoyOTU0Nw==",
+     "title": "22552-0408",
+     "uri": "/fr/logement/141-0408",
+     "slug": "141-0408",
      "logementFields": {
-      "prix": 1060,
-      "numeroLogement": "1910",
-      "chambre": null,
-      "etage": 19,
+      "prix": 981,
+      "numeroLogement": "0408",
+      "chambre": 1,
+      "etage": 4,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
-       "Studio"
+       "3 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": true,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2164b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2171b.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Ville-Marie"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE JACQUES-VIGER",
+         "buildingFields": {
+          "adresse": "965, boul. René-Lévesque Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_013.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_017.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyOTU1NQ==",
+     "title": "22552-0106",
+     "uri": "/fr/logement/141-0106",
+     "slug": "141-0106",
+     "logementFields": {
+      "prix": 972,
+      "numeroLogement": "0106",
+      "chambre": 1,
+      "etage": 1,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
       ],
       "handicape": true,
       "adapte": false,
@@ -507,35 +627,14 @@
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2164b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2171b.jpg"
          }
         }
        }
@@ -553,98 +652,42 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Plateau-Mont-Royal"
+         "title": "Ville-Marie"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE RIGAUD",
+         "title": "LE JACQUES-VIGER",
          "buildingFields": {
-          "adresse": "425, Sherbrooke Est",
+          "adresse": "965, boul. René-Lévesque Est",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_003.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_012.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_013.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_017.jpg"
              }
             }
            }
@@ -658,7 +701,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 7
+     "total": 8
     }
    }
   }
