@@ -3,88 +3,6 @@
   "logements": {
    "nodes": [
     {
-     "id": "cG9zdDo0NTk4NQ==",
-     "title": "30615-0103",
-     "uri": "/fr/logement/30615-0103",
-     "slug": "30615-0103",
-     "logementFields": {
-      "prix": 1082,
-      "numeroLogement": "0103",
-      "chambre": null,
-      "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "4 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Côte-des-Neiges-Notre-Dame-de-Grâce"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "7025, Fielding",
-         "buildingFields": {
-          "adresse": "7025, Fielding",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30204-20100607_farley-001b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30204-20100607_farley-003b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30204-20100607_farley-005b.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
      "id": "cG9zdDo0NTY0NQ==",
      "title": "50425-0107",
      "uri": "/fr/logement/50425-0107",
@@ -357,253 +275,15 @@
      }
     },
     {
-     "id": "cG9zdDoyNzM0MQ==",
-     "title": "20504 – 0104",
-     "uri": "/fr/logement/20504-0104",
-     "slug": "20504-0104",
+     "id": "cG9zdDoyNjg1MA==",
+     "title": "20500 – 0402",
+     "uri": "/fr/logement/20500-0402",
+     "slug": "20500-0402",
      "logementFields": {
-      "prix": 961,
-      "numeroLogement": "0104",
-      "chambre": 1,
-      "etage": 1,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": true,
-      "balcon": true,
-      "deuxEtage": false,
-      "plancherBois": true,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": true,
-      "positionImmeuble": [
-       "Arrière"
-      ],
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-1.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-2.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-3.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-4.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-5.jpg"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Rosemont-La-Petite-Patrie"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE OLIVAR-ASSELIN",
-         "buildingFields": {
-          "adresse": "3300, boul. Saint-Joseph Est",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_043.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_047.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_019.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_005.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/olivarasselin_01654b43045ef72a.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDoyOTU0Nw==",
-     "title": "22552-0408",
-     "uri": "/fr/logement/141-0408",
-     "slug": "141-0408",
-     "logementFields": {
-      "prix": 981,
-      "numeroLogement": "0408",
+      "prix": 944,
+      "numeroLogement": "0402",
       "chambre": 1,
       "etage": 4,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": true,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2164b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2171b.jpg"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Ville-Marie"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE JACQUES-VIGER",
-         "buildingFields": {
-          "adresse": "965, boul. René-Lévesque Est",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_003.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_012.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_013.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_017.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDoyOTU1NQ==",
-     "title": "22552-0106",
-     "uri": "/fr/logement/141-0106",
-     "slug": "141-0106",
-     "logementFields": {
-      "prix": 972,
-      "numeroLogement": "0106",
-      "chambre": 1,
-      "etage": 1,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
        "3 1/2"
@@ -627,14 +307,35 @@
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2164b.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2050.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/965-rene-levesque-est-app204-jacques-viger-3demi-20160502_allard-2171b.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2065.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2077.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2089.gif"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2107.gif"
          }
         }
        }
@@ -652,42 +353,754 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Ville-Marie"
+         "title": "Mercier-Hochelaga-Maisonneuve"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE JACQUES-VIGER",
+         "title": "LE HECTOR-VINET",
          "buildingFields": {
-          "adresse": "965, boul. René-Lévesque Est",
+          "adresse": "9555, rue Hochelaga",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_003.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-01.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_012.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-02.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_013.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-03.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyNzEwMw==",
+     "title": "20502 – 0105",
+     "uri": "/fr/logement/20502-0105",
+     "slug": "20502-0105",
+     "logementFields": {
+      "prix": 973,
+      "numeroLogement": "0105",
+      "chambre": 2,
+      "etage": 1,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1791b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1827b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1830b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1847b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1865b-1.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE DE ROUVILLE",
+         "buildingFields": {
+          "adresse": "3350, rue Sainte-Catherine Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_011.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jacquesviger_017.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rouville_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02654b4301ce828454b58b2566bc6.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_017.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_021.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02554b43020f0784.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_028.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_031.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyODI1NA==",
+     "title": "21527-0318",
+     "uri": "/fr/logement/138-0318",
+     "slug": "138-0318",
+     "logementFields": {
+      "prix": 963,
+      "numeroLogement": "0318",
+      "chambre": 1,
+      "etage": 3,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": true,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": true,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": [
+       "Avant"
+      ],
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-01-app304.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-02-app304.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-03-app304.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-04-app304.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-05-app304.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Sud-Ouest"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE RODOLPHE-CLÉMENT",
+         "buildingFields": {
+          "adresse": "5699, boul. De La Vérendrye",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_032.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_010.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_029.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_004.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_026.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_016.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_028.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_021.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_035.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_040.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rodolpheclement_02554b4303809e74.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyODM3Ng==",
+     "title": "21527-0216",
+     "uri": "/fr/logement/138-0216",
+     "slug": "138-0216",
+     "logementFields": {
+      "prix": 1080,
+      "numeroLogement": "0216",
+      "chambre": 2,
+      "etage": 2,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": true,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-11-app416.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-10-app416.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-09-app416.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-08-app416.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-07-app416.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-06-app416.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Sud-Ouest"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE RODOLPHE-CLÉMENT",
+         "buildingFields": {
+          "adresse": "5699, boul. De La Vérendrye",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_032.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_010.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_029.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_004.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_026.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_016.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_028.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_021.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_035.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_040.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rodolpheclement_02554b4303809e74.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDozMDY3OA==",
+     "title": "20502-0305",
+     "uri": "/fr/logement/132-0305",
+     "slug": "132-0305",
+     "logementFields": {
+      "prix": 983,
+      "numeroLogement": "0305",
+      "chambre": 2,
+      "etage": 3,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "4 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1777b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1791b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1827b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1847b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1830b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/de_rouville_3350-ste-catherine-est-app411-4_et_demi_20160419_allard-1865b-1.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE DE ROUVILLE",
+         "buildingFields": {
+          "adresse": "3350, rue Sainte-Catherine Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_011.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rouville_003.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_012.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02654b4301ce828454b58b2566bc6.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_017.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_021.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02554b43020f0784.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_028.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_031.jpg"
              }
             }
            }
@@ -701,7 +1114,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 8
+     "total": 9
     }
    }
   }
