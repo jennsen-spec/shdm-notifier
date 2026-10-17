@@ -371,74 +371,6 @@
      }
     },
     {
-     "id": "cG9zdDo0NTMyNw==",
-     "title": "30237-0204",
-     "uri": "/fr/logement/30237-0204",
-     "slug": "30237-0204",
-     "logementFields": {
-      "prix": 917,
-      "numeroLogement": "0204",
-      "chambre": 1,
-      "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Ahuntsic-Cartierville"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "10690, Francis",
-         "buildingFields": {
-          "adresse": "10690, Francis",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30237_10690_f1.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
      "id": "cG9zdDoyNjg1MA==",
      "title": "20500 – 0402",
      "uri": "/fr/logement/20500-0402",
@@ -691,18 +623,18 @@
      }
     },
     {
-     "id": "cG9zdDoyODM3Ng==",
-     "title": "21527-0216",
-     "uri": "/fr/logement/138-0216",
-     "slug": "138-0216",
+     "id": "cG9zdDoyODI1NA==",
+     "title": "21527-0318",
+     "uri": "/fr/logement/138-0318",
+     "slug": "138-0318",
      "logementFields": {
-      "prix": 1080,
-      "numeroLogement": "0216",
-      "chambre": 2,
-      "etage": 2,
+      "prix": 963,
+      "numeroLogement": "0318",
+      "chambre": 1,
+      "etage": 3,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
-       "4 1/2"
+       "3 1/2"
       ],
       "handicape": true,
       "adapte": false,
@@ -713,52 +645,47 @@
       "deuxEtage": false,
       "plancherBois": false,
       "portePatio": false,
-      "positionFenetreEst": false,
+      "positionFenetreEst": true,
       "positionFenetreNord": false,
       "positionFenetreOuest": false,
       "positionFenetreSud": false,
-      "positionImmeuble": null,
+      "positionImmeuble": [
+       "Avant"
+      ],
       "afficherMessageCriteresRevenusMaximaux": false,
       "medias": [
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-11-app416.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-01-app304.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-10-app416.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-02-app304.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-09-app416.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-03-app304.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-08-app416.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-04-app304.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-07-app416.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_4etdemi_int-06-app416.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-05-app304.jpg"
          }
         }
        }
@@ -895,6 +822,187 @@
       "numeroLogement": "0518",
       "chambre": null,
       "etage": 5,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "Studio"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Plateau-Mont-Royal"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE RIGAUD",
+         "buildingFields": {
+          "adresse": "425, Sherbrooke Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyOTQzMA==",
+     "title": "22550-0618",
+     "uri": "/fr/logement/139-0618",
+     "slug": "139-0618",
+     "logementFields": {
+      "prix": 966,
+      "numeroLogement": "0618",
+      "chambre": null,
+      "etage": 6,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
        "Studio"
