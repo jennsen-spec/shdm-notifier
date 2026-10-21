@@ -69,6 +69,18 @@ class Comparaison(unittest.TestCase):
         self.assertEqual((registre[0]["loyer"], registre[0]["date_disponibilite"]), ("1150", "2026-12-01"))
 
 
+class Page(unittest.TestCase):
+    def test_plus_recent_en_premier(self):
+        from datetime import datetime
+        import page
+        registre, _ = check.comparer([], check.extraire(reponse_sans("20502-0105", "132-0211")), "2026-10-01")
+        registre, _ = check.comparer(registre, check.extraire(reponse_sans("132-0211")), "2026-10-03")
+        registre, _ = check.comparer(registre, check.extraire(REPONSE), "2026-10-03")
+        html = page.generer(registre, datetime(2026, 10, 3, 18, 0))
+        ordre = sorted(["50425-0106", "20502-0105", "20502-0211"], key=lambda n: html.index(f"({n})"))
+        self.assertEqual(ordre, ["20502-0211", "20502-0105", "50425-0106"])
+
+
 class Passage(unittest.TestCase):
     def setUp(self):
         dossier = tempfile.TemporaryDirectory()

@@ -192,7 +192,10 @@ def carte(l):
 
 def generer(registre, maintenant):
     """Renvoie le HTML de la page. `maintenant` est l'heure de la vérification (Montréal)."""
-    disponibles = [l for l in registre if l["statut"] == "disponible"]
+    # Le plus récent d'abord. Le registre est dans l'ordre d'arrivée : on le parcourt à
+    # l'envers pour que, à date égale, le dernier arrivé passe aussi en premier.
+    disponibles = sorted((l for l in reversed(registre) if l["statut"] == "disponible"),
+                         key=lambda l: l["premiere_apparition"], reverse=True)
 
     if disponibles:
         n = len(disponibles)
