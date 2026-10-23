@@ -59,7 +59,8 @@ def extraire(reponse):
                        if f.get(cle)]
         lignes.append({
             # Les titres ne sont pas uniformes : « 20502 – 0105 » et « 20502-0211 ».
-            "numero": re.sub(r"\s*[–-]\s*", "-", noeud["title"]),
+            # Certaines annonces n'en ont pas du tout (vu le 22/10) : on prend alors le slug.
+            "numero": re.sub(r"\s*[–-]\s*", "-", noeud["title"] or noeud["slug"]),
             # Le site n'a pas de page par logement (noeud["uri"] mène à une 404) :
             # il renvoie vers sa liste, ouverte sur le logement par une ancre.
             "lien": f"{SITE}/fr/logements-disponibles#logement-{noeud['slug']}",

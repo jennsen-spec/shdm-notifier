@@ -58,6 +58,11 @@ class Comparaison(unittest.TestCase):
         self.assertEqual((registre[0]["statut"], registre[0]["date_retrait"], registre[0]["premiere_apparition"]),
                          ("disponible", "", "2026-10-01"))
 
+    def test_annonce_sans_titre(self):
+        reponse = copy.deepcopy(REPONSE)
+        reponse["data"]["logements"]["nodes"][0].update(title=None, slug="46118")
+        self.assertEqual(check.extraire(reponse)[0]["numero"], "46118")
+
     def test_loyer_et_date_modifies(self):
         reponse = copy.deepcopy(REPONSE)
         champs = reponse["data"]["logements"]["nodes"][0]["logementFields"]
