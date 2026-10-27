@@ -4,7 +4,7 @@
    "nodes": [
     {
      "id": "cG9zdDo0NjExOA==",
-     "title": null,
+     "title": "50424-0305",
      "uri": "/fr/logement/46118",
      "slug": "46118",
      "logementFields": {
@@ -207,13 +207,13 @@
      }
     },
     {
-     "id": "cG9zdDo0NTU4MQ==",
-     "title": "50427-0210",
-     "uri": "/fr/logement/50427-0210",
-     "slug": "50427-0210",
+     "id": "cG9zdDo0NTU4NQ==",
+     "title": "30646-0002",
+     "uri": "/fr/logement/30646-0002",
+     "slug": "30646-0002",
      "logementFields": {
-      "prix": 1411,
-      "numeroLogement": "0210",
+      "prix": 1064,
+      "numeroLogement": "0002",
       "chambre": 2,
       "etage": null,
       "date": "2026-11-01T00:00:00+00:00",
@@ -222,9 +222,9 @@
       ],
       "handicape": false,
       "adapte": false,
-      "chauffage": true,
-      "electricite": true,
-      "eauChaude": true,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
       "balcon": false,
       "deuxEtage": false,
       "plancherBois": false,
@@ -234,7 +234,7 @@
       "positionFenetreOuest": false,
       "positionFenetreSud": false,
       "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": true,
+      "afficherMessageCriteresRevenusMaximaux": false,
       "medias": null,
       "autonomie": {
        "edges": [
@@ -249,21 +249,21 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Mercier-Hochelaga-Maisonneuve"
+         "title": "Villeray-Saint-Michel-Parc-Extension"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "3282, rue de la Pépinière",
+         "title": "4200, Denis-Papin",
          "buildingFields": {
-          "adresse": "3282, rue de la Pépinière H1N 3N4",
+          "adresse": "4200, Denis-Papin",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3282pepiniere.jfif"
+              "sourceUrl": "https://www.shdm.org/app/uploads/4200-denis-papin.png"
              }
             }
            }
@@ -581,18 +581,18 @@
      }
     },
     {
-     "id": "cG9zdDoyODA1NA==",
-     "title": "21525-0403",
-     "uri": "/fr/logement/136-0403",
-     "slug": "136-0403",
+     "id": "cG9zdDoyOTA5NQ==",
+     "title": "22550-1612",
+     "uri": "/fr/logement/139-1612",
+     "slug": "139-1612",
      "logementFields": {
-      "prix": 961,
-      "numeroLogement": "0403",
-      "chambre": 1,
-      "etage": 4,
+      "prix": 966,
+      "numeroLogement": "1612",
+      "chambre": 11,
+      "etage": 16,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
-       "3 1/2"
+       "Studio"
       ],
       "handicape": true,
       "adapte": false,
@@ -613,35 +613,35 @@
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/1975-rene-levesque-ouest_3etdemi_lambert-closse_int-01-app201.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/1975-rene-levesque-ouest_3etdemi_lambert-closse_int-02-app201.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/1975-rene-levesque-ouest_3etdemi_lambert-closse_int-03-app201.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/1975-rene-levesque-ouest_3etdemi_lambert-closse_int-04-app201.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/1975-rene-levesque-ouest_3etdemi_lambert-closse_int-05-app201.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
          }
         }
        }
@@ -659,49 +659,98 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Ville-Marie"
+         "title": "Plateau-Mont-Royal"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE LAMBERT-CLOSSE",
+         "title": "LE RIGAUD",
          "buildingFields": {
-          "adresse": "1975, boul. René-Lévesque O",
+          "adresse": "425, Sherbrooke Est",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/lambertclosse_012.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/lambertclosse_023.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/lambertclosse_024.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/lambertclosse_033.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/lambertclosse_028.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
              }
             }
            }
@@ -713,221 +762,31 @@
      }
     },
     {
-     "id": "cG9zdDoyODI1NA==",
-     "title": "21527-0318",
-     "uri": "/fr/logement/138-0318",
-     "slug": "138-0318",
-     "logementFields": {
-      "prix": 963,
-      "numeroLogement": "0318",
-      "chambre": 1,
-      "etage": 3,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": true,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": true,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": [
-       "Avant"
-      ],
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-01-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-02-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-03-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-04-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-05-app304.jpg"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Sud-Ouest"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE RODOLPHE-CLÉMENT",
-         "buildingFields": {
-          "adresse": "5699, boul. De La Vérendrye",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_032.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_003.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_010.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_029.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_004.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_026.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_016.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_028.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_021.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_035.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_012.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_040.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rodolpheclement_02554b4303809e74.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDoyODM0OA==",
-     "title": "21527-0110",
-     "uri": "/fr/logement/138-0110",
-     "slug": "138-0110",
+     "id": "cG9zdDoyOTM5Mg==",
+     "title": "22550-0518",
+     "uri": "/fr/logement/139-0518",
+     "slug": "139-0518",
      "logementFields": {
       "prix": 948,
-      "numeroLogement": "0110",
-      "chambre": 1,
-      "etage": 1,
+      "numeroLogement": "0518",
+      "chambre": null,
+      "etage": 5,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
-       "3 1/2"
+       "Studio"
       ],
       "handicape": true,
       "adapte": false,
       "chauffage": false,
       "electricite": false,
       "eauChaude": false,
-      "balcon": true,
+      "balcon": false,
       "deuxEtage": false,
       "plancherBois": false,
       "portePatio": false,
       "positionFenetreEst": false,
       "positionFenetreNord": false,
-      "positionFenetreOuest": true,
+      "positionFenetreOuest": false,
       "positionFenetreSud": false,
       "positionImmeuble": null,
       "afficherMessageCriteresRevenusMaximaux": false,
@@ -935,35 +794,35 @@
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-01-app304.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-02-app304.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-03-app304.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-04-app304.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-05-app304.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
          }
         }
        }
@@ -981,105 +840,279 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Sud-Ouest"
+         "title": "Plateau-Mont-Royal"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE RODOLPHE-CLÉMENT",
+         "title": "LE RIGAUD",
          "buildingFields": {
-          "adresse": "5699, boul. De La Vérendrye",
+          "adresse": "425, Sherbrooke Est",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_032.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_003.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_010.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_029.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_004.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_026.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_016.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_028.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_021.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_035.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_012.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_040.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyOTQzMA==",
+     "title": "22550-0618",
+     "uri": "/fr/logement/139-0618",
+     "slug": "139-0618",
+     "logementFields": {
+      "prix": 966,
+      "numeroLogement": "0618",
+      "chambre": null,
+      "etage": 6,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "Studio"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Plateau-Mont-Royal"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE RIGAUD",
+         "buildingFields": {
+          "adresse": "425, Sherbrooke Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rodolpheclement_02554b4303809e74.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
              }
             }
            }
@@ -1093,7 +1126,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 15
+     "total": 12
     }
    }
   }
