@@ -3,74 +3,6 @@
   "logements": {
    "nodes": [
     {
-     "id": "cG9zdDo0NjExOA==",
-     "title": "50424-0305",
-     "uri": "/fr/logement/46118",
-     "slug": "46118",
-     "logementFields": {
-      "prix": 1288,
-      "numeroLogement": "0305",
-      "chambre": 2,
-      "etage": 3,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "4 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": true,
-      "electricite": true,
-      "eauChaude": true,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": true,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Mercier-Hochelaga-Maisonneuve"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "3270, rue de la Pépinière",
-         "buildingFields": {
-          "adresse": "3270, rue de la Pépinière H1N 3N4",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3270pepiniere.jfif"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
      "id": "cG9zdDo0NjA2OA==",
      "title": "50430-0011",
      "uri": "/fr/logement/50430-0011",
@@ -343,6 +275,74 @@
      }
     },
     {
+     "id": "cG9zdDo0NTU3Mw==",
+     "title": "50425-0106",
+     "uri": "/fr/logement/50425-0106",
+     "slug": "50425-0106",
+     "logementFields": {
+      "prix": 1134,
+      "numeroLogement": "0106",
+      "chambre": 1,
+      "etage": null,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": true,
+      "electricite": true,
+      "eauChaude": true,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": true,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "3272, rue de la Pépinière",
+         "buildingFields": {
+          "adresse": "3272, rue de la Pépinière H1N 3N4",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3272pepiniere.jfif"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
      "id": "cG9zdDoyNjg1MA==",
      "title": "20500-0402",
      "uri": "/fr/logement/20500-0402",
@@ -461,15 +461,15 @@
      }
     },
     {
-     "id": "cG9zdDoyNjg3NA==",
-     "title": "20500-0503",
-     "uri": "/fr/logement/20500-0503",
-     "slug": "20500-0503",
+     "id": "cG9zdDoyNzM0MQ==",
+     "title": "20504 – 0104",
+     "uri": "/fr/logement/20504-0104",
+     "slug": "20504-0104",
      "logementFields": {
-      "prix": 839,
-      "numeroLogement": "0503",
+      "prix": 940,
+      "numeroLogement": "0104",
       "chambre": 1,
-      "etage": 5,
+      "etage": 1,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
        "3 1/2"
@@ -488,42 +488,42 @@
       "positionFenetreOuest": false,
       "positionFenetreSud": true,
       "positionImmeuble": [
-       "Avant"
+       "Arrière"
       ],
       "afficherMessageCriteresRevenusMaximaux": false,
       "medias": [
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2077.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-1.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2089.gif"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-2.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2050.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-3.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2065.jpg"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-4.jpg"
          }
         }
        },
        {
         "media": {
          "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2107.gif"
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-5.jpg"
          }
         }
        }
@@ -541,216 +541,49 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Mercier-Hochelaga-Maisonneuve"
+         "title": "Rosemont-La-Petite-Patrie"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE HECTOR-VINET",
+         "title": "LE OLIVAR-ASSELIN",
          "buildingFields": {
-          "adresse": "9555, rue Hochelaga",
+          "adresse": "3300, boul. Saint-Joseph Est",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-01.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_043.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-02.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_047.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-03.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDoyOTA5NQ==",
-     "title": "22550-1612",
-     "uri": "/fr/logement/139-1612",
-     "slug": "139-1612",
-     "logementFields": {
-      "prix": 966,
-      "numeroLogement": "1612",
-      "chambre": 11,
-      "etage": 16,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "Studio"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Plateau-Mont-Royal"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE RIGAUD",
-         "buildingFields": {
-          "adresse": "425, Sherbrooke Est",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_019.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_005.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/olivarasselin_01654b43045ef72a.jpg"
              }
             }
            }
@@ -1122,11 +955,152 @@
        ]
       }
      }
+    },
+    {
+     "id": "cG9zdDoyOTQ2MA==",
+     "title": "22551-0304",
+     "uri": "/fr/logement/140-0304",
+     "slug": "140-0304",
+     "logementFields": {
+      "prix": 895,
+      "numeroLogement": "0304",
+      "chambre": 1,
+      "etage": 3,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": [
+       "Avant"
+      ],
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-1999b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-2041b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-2060b-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-2132b-1.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Ville-Marie"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE DU HAVRE",
+         "buildingFields": {
+          "adresse": "2580, rue Sainte-Catherine Est",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_011.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_051.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_024.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/duhavre_03654b4305e098c3.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_055.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_058.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_060.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
     }
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 12
+     "total": 13
     }
    }
   }
