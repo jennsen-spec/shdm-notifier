@@ -343,6 +343,74 @@
      }
     },
     {
+     "id": "cG9zdDo0NTMyNw==",
+     "title": "30237-0204",
+     "uri": "/fr/logement/30237-0204",
+     "slug": "30237-0204",
+     "logementFields": {
+      "prix": 917,
+      "numeroLogement": "0204",
+      "chambre": 1,
+      "etage": null,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Ahuntsic-Cartierville"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "10690, Francis",
+         "buildingFields": {
+          "adresse": "10690, Francis",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30237_10690_f1.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
      "id": "cG9zdDoyNjg1MA==",
      "title": "20500-0402",
      "uri": "/fr/logement/20500-0402",
@@ -955,152 +1023,11 @@
        ]
       }
      }
-    },
-    {
-     "id": "cG9zdDoyOTQ2MA==",
-     "title": "22551-0304",
-     "uri": "/fr/logement/140-0304",
-     "slug": "140-0304",
-     "logementFields": {
-      "prix": 895,
-      "numeroLogement": "0304",
-      "chambre": 1,
-      "etage": 3,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": [
-       "Avant"
-      ],
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-1999b-1.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-2041b-1.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-2060b-1.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/du-havre-2580-ste-catherine-est-app105-3demi-20160502_allard-2132b-1.jpg"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Ville-Marie"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE DU HAVRE",
-         "buildingFields": {
-          "adresse": "2580, rue Sainte-Catherine Est",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_011.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_051.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_024.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/duhavre_03654b4305e098c3.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_055.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_058.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/duhavre_060.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
     }
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 13
+     "total": 14
     }
    }
   }
