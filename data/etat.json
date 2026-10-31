@@ -3,74 +3,6 @@
   "logements": {
    "nodes": [
     {
-     "id": "cG9zdDo0NjA2OA==",
-     "title": "50430-0011",
-     "uri": "/fr/logement/50430-0011",
-     "slug": "50430-0011",
-     "logementFields": {
-      "prix": 1665,
-      "numeroLogement": "0011",
-      "chambre": 2,
-      "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "4 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Rosemont-La-Petite-Patrie"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "5697, De Lorimier",
-         "buildingFields": {
-          "adresse": "5697, De Lorimier",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/2025/11/5697_delorimier1.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
      "id": "cG9zdDo0NTY0NQ==",
      "title": "50425-0107",
      "uri": "/fr/logement/50425-0107",
@@ -139,24 +71,24 @@
      }
     },
     {
-     "id": "cG9zdDo0NTYyNQ==",
-     "title": "31607-0030",
-     "uri": "/fr/logement/31607-0030",
-     "slug": "31607-0030",
+     "id": "cG9zdDo0NTYzNw==",
+     "title": "50424-0204",
+     "uri": "/fr/logement/50424-0204",
+     "slug": "50424-0204",
      "logementFields": {
-      "prix": 623,
-      "numeroLogement": "0030",
-      "chambre": null,
-      "etage": null,
+      "prix": 1583,
+      "numeroLogement": "0204",
+      "chambre": 2,
+      "etage": 2,
       "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
-       "Studio"
+       "4 1/2"
       ],
       "handicape": false,
       "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
+      "chauffage": true,
+      "electricite": true,
+      "eauChaude": true,
       "balcon": false,
       "deuxEtage": false,
       "plancherBois": false,
@@ -166,7 +98,7 @@
       "positionFenetreOuest": false,
       "positionFenetreSud": false,
       "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
+      "afficherMessageCriteresRevenusMaximaux": true,
       "medias": null,
       "autonomie": {
        "edges": [
@@ -181,21 +113,21 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Plateau-Mont-Royal"
+         "title": "Mercier-Hochelaga-Maisonneuve"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "3605, Messier",
+         "title": "3270, rue de la Pépinière",
          "buildingFields": {
-          "adresse": "3605, Messier",
+          "adresse": "3270, rue de la Pépinière H1N 3N4",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/2015/01/3605-messier.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3270pepiniere.jfif"
              }
             }
            }
@@ -624,6 +556,126 @@
       "positionFenetreOuest": false,
       "positionFenetreSud": false,
       "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/alleluia-5500.6av.app14.3demi.1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/alleluia-5500.6av.app14.3demi.2.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/alleluia-5500.6av.app14.3demi.3.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/alleluia-5500.6av.app14.3demi.4.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/alleluia-5500.6av.app14.3demi.5.jpg"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Rosemont-La-Petite-Patrie"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE ALLÉLUIA",
+         "buildingFields": {
+          "adresse": "5500, 6e Avenue",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/alleluia_002.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/alleluia_011.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/alleluia_021.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDoyNzE3NQ==",
+     "title": "20503 – 0506",
+     "uri": "/fr/logement/20503-0506",
+     "slug": "20503-0506",
+     "logementFields": {
+      "prix": 1028,
+      "numeroLogement": "0506",
+      "chambre": 1,
+      "etage": 5,
+      "date": "2026-11-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": [
+       "Avant"
+      ],
       "afficherMessageCriteresRevenusMaximaux": false,
       "medias": [
        {
