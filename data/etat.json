@@ -561,6 +561,126 @@
      }
     },
     {
+     "id": "cG9zdDoyNjk0MQ==",
+     "title": "20500 – 0210",
+     "uri": "/fr/logement/20500-0210",
+     "slug": "20500-0210",
+     "logementFields": {
+      "prix": 880,
+      "numeroLogement": "0210",
+      "chambre": 1,
+      "etage": 2,
+      "date": "2026-12-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": true,
+      "balcon": true,
+      "deuxEtage": false,
+      "plancherBois": true,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": true,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": [
+       "Arrière"
+      ],
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2050.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2065.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2077.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2089.gif"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2107.gif"
+         }
+        }
+       }
+      ],
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "LE HECTOR-VINET",
+         "buildingFields": {
+          "adresse": "9555, rue Hochelaga",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-01.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-02.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-03.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
      "id": "cG9zdDoyODI4OA==",
      "title": "21527-0420",
      "uri": "/fr/logement/138-0420",
@@ -747,192 +867,11 @@
        ]
       }
      }
-    },
-    {
-     "id": "cG9zdDoyOTA5Ng==",
-     "title": "22550-1612",
-     "uri": "/fr/logement/139-1612-2",
-     "slug": "139-1612-2",
-     "logementFields": {
-      "prix": 966,
-      "numeroLogement": "1612",
-      "chambre": null,
-      "etage": 16,
-      "date": "2026-12-01T00:00:00+00:00",
-      "typologie": [
-       "Studio"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1264b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1285b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1301b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1303b.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/le_rigaud_400derigaud_app1510_studio_20160325_allard-1314b.jpg"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Plateau-Mont-Royal"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE RIGAUD",
-         "buildingFields": {
-          "adresse": "425, Sherbrooke Est",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_02.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-002b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/terrasse_rigaud.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-001b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_1.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-007b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_3.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rigaud_005.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rigaud_02454b43108ca869.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-006b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-009b.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/20160719_trepanier-008b.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
     }
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 14
+     "total": 15
     }
    }
   }
