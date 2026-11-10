@@ -71,6 +71,170 @@
      }
     },
     {
+     "id": "cG9zdDo0NjAyMA==",
+     "title": "50407-0604",
+     "uri": "/fr/logement/50407",
+     "slug": "50407",
+     "logementFields": {
+      "prix": 857,
+      "numeroLogement": "0604",
+      "chambre": 1,
+      "etage": null,
+      "date": "2026-12-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": true,
+      "adapte": false,
+      "chauffage": false,
+      "electricite": false,
+      "eauChaude": false,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": false,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDc4",
+          "name": "Autonomie+ (55 ans et plus)"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Sud-Ouest"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "JEAN-BRILLANT",
+         "buildingFields": {
+          "adresse": "3055, rue Delisle",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_1.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_2.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_3.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_4.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_5.jpg"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "cG9zdDo0NTg1NA==",
+     "title": "50425-0201",
+     "uri": "/fr/logement/50425-0201",
+     "slug": "50425-0201",
+     "logementFields": {
+      "prix": 1203,
+      "numeroLogement": "0201",
+      "chambre": 1,
+      "etage": 2,
+      "date": "2026-12-01T00:00:00+00:00",
+      "typologie": [
+       "3 1/2"
+      ],
+      "handicape": false,
+      "adapte": false,
+      "chauffage": true,
+      "electricite": true,
+      "eauChaude": true,
+      "balcon": false,
+      "deuxEtage": false,
+      "plancherBois": false,
+      "portePatio": false,
+      "positionFenetreEst": false,
+      "positionFenetreNord": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": false,
+      "positionImmeuble": null,
+      "afficherMessageCriteresRevenusMaximaux": true,
+      "medias": null,
+      "autonomie": {
+       "edges": [
+        {
+         "node": {
+          "id": "dGVybTo2MDgy",
+          "name": "Pour tous"
+         }
+        }
+       ]
+      },
+      "quartier": {
+       "nodes": [
+        {
+         "title": "Mercier-Hochelaga-Maisonneuve"
+        }
+       ]
+      },
+      "immeuble": {
+       "nodes": [
+        {
+         "title": "3272, rue de la Pépinière",
+         "buildingFields": {
+          "adresse": "3272, rue de la Pépinière H1N 3N4",
+          "medias": [
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/uncategorized/3272pepiniere.jfif"
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
      "id": "cG9zdDo0NTgyNA==",
      "title": "30602-0149",
      "uri": "/fr/logement/30602-0149",
@@ -493,20 +657,20 @@
      }
     },
     {
-     "id": "cG9zdDo0NTMyNw==",
-     "title": "30237-0204",
-     "uri": "/fr/logement/30237-0204",
-     "slug": "30237-0204",
+     "id": "cG9zdDo0NTQ4NQ==",
+     "title": "50407-0107",
+     "uri": "/fr/logement/50407-0107",
+     "slug": "50407-0107",
      "logementFields": {
-      "prix": 917,
-      "numeroLogement": "0204",
+      "prix": 1105,
+      "numeroLogement": "0107",
       "chambre": 1,
       "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
+      "date": "2026-12-01T00:00:00+00:00",
       "typologie": [
        "3 1/2"
       ],
-      "handicape": false,
+      "handicape": true,
       "adapte": false,
       "chauffage": false,
       "electricite": false,
@@ -522,230 +686,6 @@
       "positionImmeuble": null,
       "afficherMessageCriteresRevenusMaximaux": false,
       "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDgy",
-          "name": "Pour tous"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Ahuntsic-Cartierville"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "10690, Francis",
-         "buildingFields": {
-          "adresse": "10690, Francis",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/immeubles-pour-tous/30237_10690_f1.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDoyNjk0MQ==",
-     "title": "20500 – 0210",
-     "uri": "/fr/logement/20500-0210",
-     "slug": "20500-0210",
-     "logementFields": {
-      "prix": 880,
-      "numeroLogement": "0210",
-      "chambre": 1,
-      "etage": 2,
-      "date": "2026-12-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": true,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": true,
-      "balcon": true,
-      "deuxEtage": false,
-      "plancherBois": true,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": true,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": [
-       "Arrière"
-      ],
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2050.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2065.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2077.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2089.gif"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/hector_vinet_9555-rue-hochelaga_app213_3demi-yvesmartinallard-2107.gif"
-         }
-        }
-       }
-      ],
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Mercier-Hochelaga-Maisonneuve"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE HECTOR-VINET",
-         "buildingFields": {
-          "adresse": "9555, rue Hochelaga",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-01.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-02.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/hector-vinet-9555-hochelaga-03.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
-     "id": "cG9zdDoyODI4OA==",
-     "title": "21527-0420",
-     "uri": "/fr/logement/138-0420",
-     "slug": "138-0420",
-     "logementFields": {
-      "prix": 878,
-      "numeroLogement": null,
-      "chambre": 1,
-      "etage": 4,
-      "date": "2026-11-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": [
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-01-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-02-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-03-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-04-app304.jpg"
-         }
-        }
-       },
-       {
-        "media": {
-         "node": {
-          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/rodolphe-clement_3etdemi_int-05-app304.jpg"
-         }
-        }
-       }
-      ],
       "autonomie": {
        "edges": [
         {
@@ -766,98 +706,42 @@
       "immeuble": {
        "nodes": [
         {
-         "title": "LE RODOLPHE-CLÉMENT",
+         "title": "JEAN-BRILLANT",
          "buildingFields": {
-          "adresse": "5699, boul. De La Vérendrye",
+          "adresse": "3055, rue Delisle",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_032.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_1.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_003.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_2.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolfeclement_010.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_3.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_029.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_4.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_004.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_026.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_016.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_028.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_021.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_035.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_012.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rodolpheclement_040.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rodolpheclement_02554b4303809e74.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/jean-brillant_5.jpg"
              }
             }
            }
@@ -871,7 +755,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 15
+     "total": 19
     }
    }
   }
