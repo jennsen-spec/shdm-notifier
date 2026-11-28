@@ -139,130 +139,6 @@
      }
     },
     {
-     "id": "cG9zdDo0NjMyNA==",
-     "title": "20502-0307",
-     "uri": "/fr/logement/46324",
-     "slug": "46324",
-     "logementFields": {
-      "prix": 861,
-      "numeroLogement": "0307",
-      "chambre": 1,
-      "etage": 3,
-      "date": "2026-12-01T00:00:00+00:00",
-      "typologie": [
-       "3 1/2"
-      ],
-      "handicape": false,
-      "adapte": false,
-      "chauffage": false,
-      "electricite": false,
-      "eauChaude": false,
-      "balcon": false,
-      "deuxEtage": false,
-      "plancherBois": false,
-      "portePatio": false,
-      "positionFenetreEst": false,
-      "positionFenetreNord": false,
-      "positionFenetreOuest": false,
-      "positionFenetreSud": false,
-      "positionImmeuble": null,
-      "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
-      "autonomie": {
-       "edges": [
-        {
-         "node": {
-          "id": "dGVybTo2MDc4",
-          "name": "Autonomie+ (55 ans et plus)"
-         }
-        }
-       ]
-      },
-      "quartier": {
-       "nodes": [
-        {
-         "title": "Mercier-Hochelaga-Maisonneuve"
-        }
-       ]
-      },
-      "immeuble": {
-       "nodes": [
-        {
-         "title": "LE DE ROUVILLE",
-         "buildingFields": {
-          "adresse": "3350, rue Sainte-Catherine Est",
-          "medias": [
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_011.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/shdm-employes/rouville_003.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_012.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02654b4301ce828454b58b2566bc6.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_017.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_021.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/rouville_02554b43020f0784.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_028.jpg"
-             }
-            }
-           },
-           {
-            "media": {
-             "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/rouville_031.jpg"
-             }
-            }
-           }
-          ]
-         }
-        }
-       ]
-      }
-     }
-    },
-    {
      "id": "cG9zdDo0NTg1NA==",
      "title": "50425-0201",
      "uri": "/fr/logement/50425-0201",
@@ -408,7 +284,7 @@
       "numeroLogement": "0210",
       "chambre": 2,
       "etage": 2,
-      "date": "2026-12-01T00:00:00+00:00",
+      "date": "2026-11-01T00:00:00+00:00",
       "typologie": [
        "4 1/2"
       ],
@@ -476,7 +352,7 @@
       "numeroLogement": "0204",
       "chambre": 1,
       "etage": null,
-      "date": "2026-11-01T00:00:00+00:00",
+      "date": "2026-12-01T00:00:00+00:00",
       "typologie": [
        "3 1/2"
       ],
@@ -626,15 +502,15 @@
      }
     },
     {
-     "id": "cG9zdDozMDA0MA==",
-     "title": "23575-0203",
-     "uri": "/fr/logement/142-0203",
-     "slug": "142-0203",
+     "id": "cG9zdDoyNzM0MQ==",
+     "title": "20504-0104",
+     "uri": "/fr/logement/20504-0104",
+     "slug": "20504-0104",
      "logementFields": {
-      "prix": 875,
-      "numeroLogement": "0203",
+      "prix": 940,
+      "numeroLogement": "0104",
       "chambre": 1,
-      "etage": 2,
+      "etage": 1,
       "date": "2026-12-01T00:00:00+00:00",
       "typologie": [
        "3 1/2"
@@ -650,13 +526,49 @@
       "portePatio": false,
       "positionFenetreEst": false,
       "positionFenetreNord": false,
-      "positionFenetreOuest": true,
-      "positionFenetreSud": false,
+      "positionFenetreOuest": false,
+      "positionFenetreSud": true,
       "positionImmeuble": [
-       "Avant"
+       "Arrière"
       ],
       "afficherMessageCriteresRevenusMaximaux": false,
-      "medias": null,
+      "medias": [
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-1.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-2.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-3.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-4.jpg"
+         }
+        }
+       },
+       {
+        "media": {
+         "node": {
+          "sourceUrl": "https://www.shdm.org/app/uploads/typologies-autonomie-plus/3300-allard-olivar-asselin_3demi-108-5.jpg"
+         }
+        }
+       }
+      ],
       "autonomie": {
        "edges": [
         {
@@ -670,42 +582,49 @@
       "quartier": {
        "nodes": [
         {
-         "title": "Ahuntsic-Cartierville"
+         "title": "Rosemont-La-Petite-Patrie"
         }
        ]
       },
       "immeuble": {
        "nodes": [
         {
-         "title": "LE EDMOND J. MASSICOTTE",
+         "title": "LE OLIVAR-ASSELIN",
          "buildingFields": {
-          "adresse": "2615, boul. Henri-Bourassa Est",
+          "adresse": "3300, boul. Saint-Joseph Est",
           "medias": [
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/edmondmassicotte_016.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_043.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/edmondmassicotte_015.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_047.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/edmondmassicotte_025.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_019.jpg"
              }
             }
            },
            {
             "media": {
              "node": {
-              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/edmondmassicotte_006.jpg"
+              "sourceUrl": "https://www.shdm.org/app/uploads/autonomie-plus/olivarasselin_005.jpg"
+             }
+            }
+           },
+           {
+            "media": {
+             "node": {
+              "sourceUrl": "https://www.shdm.org/app/uploads/residents-autonomie-plus/olivarasselin_01654b43045ef72a.jpg"
              }
             }
            }
@@ -719,7 +638,7 @@
    ],
    "pageInfo": {
     "offsetPagination": {
-     "total": 9
+     "total": 8
     }
    }
   }
